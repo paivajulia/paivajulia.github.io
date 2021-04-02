@@ -1,0 +1,33 @@
+img{
+    width: 15% !important;
+}
+.img-perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo{
+    width: 70%;
+    font-size: 2.3ex;
+    font-family: 'Assistant', sans-serif;
+}
+.col-centered {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+i{font-size: 4ex;}
+.fa-facebook-official{color: #3B5998;}
+.fa-linkedin-square{color: #0077B5;}
+.fa-github{color: black;}
+
+.HTML{color: rgb(236, 57, 12);}
+.JavaScript{color: rgb(241, 220, 28);}
+.CSS{color: rgb(204, 0, 255);}
+.NodeJS{color: rgb(26, 190, 4);}
+
+@media(max-width: 600px){
+    .fa-3x{font-size: 2em !important;}
+}
